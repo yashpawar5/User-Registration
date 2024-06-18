@@ -22,5 +22,5 @@ curl --location --request GET 'http://localhost:8080/user/fetch?username=' \
 --header 'Authorization: Basic dXNlcjE6dXNlcjEyMw==' \
 --header 'Cookie: JSESSIONID=3C9B2F0897F97ACC0BB4ACD069E8C6FC' \
 --data '{
-    "username": "user1"
+    "username": "String"
 }'
