@@ -1,7 +1,7 @@
 api/user/register:
 
 
-curl --location 'http://localhost:8080/user/register' \
+curl --location 'api/user/register' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic dXNlcjE6dXNlcjEyMw==' \
 --header 'Cookie: JSESSIONID=3C9B2F0897F97ACC0BB4ACD069E8C6FC' \
@@ -17,7 +17,7 @@ curl --location 'http://localhost:8080/user/register' \
 api/user/fetch:
 
 
-curl --location --request GET 'http://localhost:8080/user/fetch?username=' \
+curl --location --request GET 'api/user/fetch?username=' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic dXNlcjE6dXNlcjEyMw==' \
 --header 'Cookie: JSESSIONID=3C9B2F0897F97ACC0BB4ACD069E8C6FC' \
