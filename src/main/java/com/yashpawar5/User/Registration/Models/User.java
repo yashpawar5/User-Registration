@@ -28,7 +28,4 @@ public class User {
     private boolean enabled;
 
     private String email;
-
-    @OneToMany(mappedBy = "user", cascade = {CascadeType.ALL}, fetch = FetchType.LAZY)
-    private Set<Authority> authorities = new HashSet();
 }

@@ -22,6 +22,4 @@ public class Authority {
     @Column(length = 50, nullable = false)
     private String authority;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    private User user;
 }
