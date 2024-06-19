@@ -21,23 +21,6 @@ public class UserService {
     private AuthorityRepository authorityRepository;
 
 
-
-//    public String registerUser(RegisterUserRequest registerUserRequest) {
-//        User user = User.builder()
-//                .username(registerUserRequest.getUsername())
-//                .password(new BCryptPasswordEncoder().encode(registerUserRequest.getPassword()))
-//                .email(registerUserRequest.getEmail())
-//                .enabled(true)
-//                .build();
-//        user = userRepository.save(user);
-//        Authority authority = Authority.builder()
-//                .authority("ROLE_USER")
-//                .username(user.getUsername())
-//                .build();
-//       authorityRepository.save(authority);
-//        return "User registered successfully with User ID: " + user.getUserId();
-//    }
-
 public String registerUser(RegisterUserRequest registerUserRequest) {
     String username = registerUserRequest.getUsername();
     try {
@@ -63,12 +46,6 @@ public String registerUser(RegisterUserRequest registerUserRequest) {
     }
 }
 
-
-
-//    public String fetchUser(String username) {
-//        User user = userRepository.findUserByUsername(username);
-//        return "Username: " + user.getUsername() +" Email: " + user.getEmail();
-//    }
 
     public String fetchUser(String username) {
         try {
