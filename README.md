@@ -49,7 +49,7 @@ curl --location --request POST 'api/user/register' \
 
 cURL script for fetching user data securely:
 
-curl --location --request GET 'api/user/fetch?username='String' \
+curl --location --request GET 'api/user/fetch?username=username \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic dXNlcjE6dXNlcjEyMw==' \
 --data '{
