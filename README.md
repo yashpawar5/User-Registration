@@ -6,7 +6,9 @@ Java: Make sure you have Java installed on your system. You can check the versio
 MySQL: You'll need a MySQL database server running. You can install MySQL locally or use a cloud-based solution. Refer to the official MySQL documentation (https://dev.mysql.com/doc/) for installation instructions.
 Database Setup:
 
-Create a MySQL Database: Create a database specifically for this application on your MySQL server.
+Create a MySQL Database: 
+
+Create a database specifically for this application on your MySQL server.
 
 
 Application Configuration:
@@ -20,9 +22,7 @@ spring.datasource.password: Enter your MySQL password.
 Running the Application:
 
 Navigate to Project Directory: Open your terminal and navigate to the directory where your Spring Boot application resides.
-
 Build the Project: Use the command 'mvn package' to build the application. This will create an executable JAR file.
-
 Run the Application: Run the application with the following command, replacing application.jar with the actual name of your JAR file:
 
 Bash
