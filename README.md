@@ -1,3 +1,12 @@
+
+![Screenshot 2024-06-19 124655](https://github.com/yashpawar5/User-Registration/assets/89527379/ddd4d499-f2d9-45c5-8542-780ce47a1c7e)
+
+![image](https://github.com/yashpawar5/User-Registration/assets/89527379/d43ea56b-2be9-46aa-b9bd-0fa177ed2af9)
+
+![image](https://github.com/yashpawar5/User-Registration/assets/89527379/46290284-f792-4fcd-8048-5ff7d58ed6b6)
+
+
+
 This project is a Spring Boot application that utilizes a MySQL database. Here's how to get it running:
 
 Prerequisites:
