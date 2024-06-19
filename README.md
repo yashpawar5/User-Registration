@@ -1,4 +1,3 @@
-Running the Spring Boot application with MySQL
 This project is a Spring Boot application that utilizes a MySQL database. Here's how to get it running:
 
 Prerequisites:
