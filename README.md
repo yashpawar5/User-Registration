@@ -1,9 +1,10 @@
 
 ![Screenshot 2024-06-19 124655](https://github.com/yashpawar5/User-Registration/assets/89527379/ddd4d499-f2d9-45c5-8542-780ce47a1c7e)
 
-![image](https://github.com/yashpawar5/User-Registration/assets/89527379/d43ea56b-2be9-46aa-b9bd-0fa177ed2af9)
+![image](https://github.com/yashpawar5/User-Registration/assets/89527379/00e8e747-d861-4331-95a4-9771098da4dc)
 
-![image](https://github.com/yashpawar5/User-Registration/assets/89527379/46290284-f792-4fcd-8048-5ff7d58ed6b6)
+![image](https://github.com/yashpawar5/User-Registration/assets/89527379/12bf7e89-50c2-4563-b5e4-578e07b7398f)
+
 
 
 
