@@ -1,6 +1,6 @@
 package com.yashpawar5.User.Registration;
 
-import javax.sql.DataSource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +18,8 @@ import org.springframework.security.provisioning.JdbcUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import javax.sql.DataSource;
+
 import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
@@ -25,7 +27,6 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableWebSecurity
 @EnableWebMvc
 public class SecurityConfigurations {
-
     public static final String[] PUBLIC_URLS = {
             "user/register",
             "v3/api-docs/",
@@ -45,16 +46,16 @@ public class SecurityConfigurations {
         return new BCryptPasswordEncoder();
     }
 
-    @Bean
-    public WebSecurityCustomizer webSecurityCustomizer() {
-        return (web) -> web.ignoring().requestMatchers(PUBLIC_URLS);
-    }
+    //    @Bean
+//    public WebSecurityCustomizer webSecurityCustomizer() {
+//        return (web) -> web.ignoring().requestMatchers(PUBLIC_URLS);
+//    }
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests((requests) ->
                 requests.requestMatchers(PUBLIC_URLS).permitAll()
-                .anyRequest().authenticated());
+                        .anyRequest().authenticated());
         http.formLogin(withDefaults());
         http.httpBasic(withDefaults());
         http.csrf((csrf) -> csrf.disable());
