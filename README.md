@@ -1,10 +1,6 @@
 
-![Screenshot 2024-06-19 124655](https://github.com/yashpawar5/User-Registration/assets/89527379/ddd4d499-f2d9-45c5-8542-780ce47a1c7e)
 
-![image](https://github.com/yashpawar5/User-Registration/assets/89527379/00e8e747-d861-4331-95a4-9771098da4dc)
-
-![image](https://github.com/yashpawar5/User-Registration/assets/89527379/12bf7e89-50c2-4563-b5e4-578e07b7398f)
-
+![UserRegistration](https://github.com/yashpawar5/User-Registration/assets/89527379/677db290-cb85-45a8-8d24-0f2b8add7521)
 
 
 
