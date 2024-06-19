@@ -33,7 +33,7 @@ Build the Project: Use the command 'mvn package' to build the application. This 
 Run the Application: Run the application with the following command, replacing application.jar with the actual name of your JAR file:
 
 Bash
-'java -jar application.jar'
+'java -jar UserRegistrationApplication.jar'
 
 This will start the Spring Boot application and connect to your MySQL database based on the configuration provided.
 
