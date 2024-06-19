@@ -21,6 +21,7 @@ Create a database specifically for this application on your MySQL server.
 Application Configuration:
 
 Configure app's connection to the MySQL database. Update the Application Configuration file with your specific database credentials:
+
 spring.datasource.url: Set the JDBC URL for your MySQL database server.
 spring.datasource.username: Enter your MySQL username.
 spring.datasource.password: Enter your MySQL password.
