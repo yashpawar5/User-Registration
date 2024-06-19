@@ -1,6 +1,7 @@
 
+![UserRegistration](https://github.com/yashpawar5/User-Registration/assets/89527379/21b3be44-fde6-4a2b-bd67-cc33a275caaf)
 
-![UserRegistration](https://github.com/yashpawar5/User-Registration/assets/89527379/677db290-cb85-45a8-8d24-0f2b8add7521)
+
 
 
 
